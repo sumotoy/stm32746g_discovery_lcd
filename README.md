@@ -1,7 +1,7 @@
 # stm32746g_discovery_lcd
 A more complete BSP driver for STM32F7 discovery retro-compatible
 
-I just get my first ST32 board, the STM32F7 discovery, nice features, nice speed, fully equipped, but a mess to program, spent 2 days just to understand wich IDE to use!
+I just get my first ST32 board, the STM32F7 discovery http://www.st.com/web/en/catalog/tools/FM116/SC959/SS1532/LN1848/PF261641, nice features, nice speed, fully equipped, but a mess to program, spent 2 days just to understand wich IDE to use!
 I wonder why ST has this horrible approach with such a worderful hardware, if they change directions for sure the ST micros can kick the ass but actually get a led on/off and get display on have the exact amount of complications and I believe it's impossible for a non-professional user to deal with these board, too bad.<br>
 ST provide his drivers, almost everyone use it without touching anithing but digging inside code I discover that most are not written as I expect, sometime the performances are poor, the coding it's obscure and not easy to understand. The result it's that coders community don't contribute to get better drivers!<br>
 The ST stuff it's powerful and cost much less than many other MCU's, the company spend a fortune to create boards for non-professionals, many has arduino pin compatibility (most un-usable since most arduino shields are 5V and all the ST stuff it's 3v3) but the software it support related it's a mess so most people buy the board because it's really cheap and fully loaded but after a while they give up and leave in a side to accumulate dust.<br>
