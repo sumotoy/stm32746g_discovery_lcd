@@ -63,5 +63,5 @@ void     BSP_LCD_DisplayOn(void);<br>
 
 Digging the c++ code shows that ST choosed a basic approach, it just reset screen using it's hardware defaults (was hardly difficult but I get an only-for-your-eyes datasheet to prove that) and don't use code trick to accellerate graphic primitives. Also some primitive function it's missed like triangles or arbitrary poligons.<br>
 The STM32F7 has internal 2d accelleration but a better tft driver will help a lot with graphic-intensive applications!<br>
-
+...to be continued...<br>
 
